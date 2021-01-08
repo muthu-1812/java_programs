@@ -15,8 +15,8 @@ class secondLargest {
             ar[i]=s.nextInt();
         }
 
-        int max1=INT_MIN,max2=INT_MIN;
-
+        int max1=Integer.MIN_VALUE;
+        int max2=Integer.MIN_VALUE;
         for(int x:ar)
         {
             if(x>max1)
