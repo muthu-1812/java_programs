@@ -15,7 +15,7 @@ class secondLargest {
             ar[i]=s.nextInt();
         }
 
-        int max1=0,max2=0;
+        int max1=INT_MIN,max2=INT_MIN;
 
         for(int x:ar)
         {
